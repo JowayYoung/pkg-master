@@ -4,22 +4,22 @@ const Chalk = require("chalk");
 const Commander = require("commander");
 
 const Package = require("../package");
-const New = require("../lib/new");
-const Public = require("../lib/public");
+const Create = require("../lib/create");
+const Publish = require("../lib/publish");
 
 Commander
 	.usage(Chalk.yellowBright("<command> [option]"))
 	.version(Package.version, "-v, --version");
 Commander
-	.command("new")
-	.alias("n")
+	.command("create")
+	.alias("c")
 	.description(Chalk.blueBright("创建模块"))
-	.action(New);
+	.action(Create);
 Commander
-	.command("public")
+	.command("publish")
 	.alias("p")
 	.description(Chalk.blueBright("发布模块"))
-	.action(Public);
+	.action(Publish);
 
 Commander.parse(process.argv);
 !Commander.args.length && Commander.help();
