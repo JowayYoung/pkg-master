@@ -4,21 +4,28 @@ const Chalk = require("chalk");
 const Commander = require("commander");
 
 const Package = require("../package");
-const Create = require("../lib/create");
+const Lang = require("../lib/lang");
+const New = require("../lib/new");
 const Publish = require("../lib/publish");
+const { ACTION_TEXT } = require("../i18n");
 
 Commander
 	.usage(Chalk.yellowBright("<command> [option]"))
 	.version(Package.version, "-v, --version");
 Commander
-	.command("create")
-	.alias("c")
-	.description(Chalk.blueBright("创建模块"))
-	.action(Create);
+	.command("lang")
+	.alias("l")
+	.description(Chalk.blueBright(ACTION_TEXT.lang))
+	.action(Lang);
+Commander
+	.command("new")
+	.alias("n")
+	.description(Chalk.blueBright(ACTION_TEXT.new))
+	.action(New);
 Commander
 	.command("publish")
 	.alias("p")
-	.description(Chalk.blueBright("发布模块"))
+	.description(Chalk.blueBright(ACTION_TEXT.publish))
 	.action(Publish);
 
 Commander.parse(process.argv);

@@ -37,7 +37,7 @@
 		"execa": "1.0.0",
 		"figures": "2.0.0",
 		"inquirer": "6.2.0",
-		"listr": "0.14.2",
+		"listr": "0.14.3",
 		"rimraf": "2.6.2"
 	},
 	"engines": {
