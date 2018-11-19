@@ -13,6 +13,7 @@ const LANG_TEXT = {
 };
 
 const NEW_TEXT = {
+	generating: `${Figures.hamburger} 文件正在生成中......`,
 	judgeAuthor: `${Figures.cross} 名称只能由数字、字母、中文、中划线、下划线组成`,
 	judgeAuthorEmpty: `${Figures.cross} 作者不能为空`,
 	judgeEmail: `${Figures.cross} 请输入正确的邮箱`,

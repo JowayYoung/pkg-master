@@ -13,6 +13,7 @@ const LANG_TEXT = {
 };
 
 const NEW_TEXT = {
+	generating: `${Figures.hamburger} File is generating......`,
 	judgeAuthor: `${Figures.cross} Author can only be composed of numbers, letters, Chinese, middle line, and underline`,
 	judgeAuthorEmpty: `${Figures.cross} Author can't be empty`,
 	judgeEmail: `${Figures.cross} Please input the correct mailbox`,
