@@ -32,13 +32,13 @@ const NEW_TEXT = {
 };
 
 const PUBLISH_TEXT = {
-	errorLogin: `${Figures.cross} 请登录您的Npm账号`,
+	errorLogin: `${Figures.cross} 请执行 npm login 登录您的Npm账号，无账号请执行 npm adduser 创建您的Npm账号`,
 	errorNode: `${Figures.cross} Node未安装`,
 	errorNpm: `${Figures.cross} Npm未安装`,
-	errorNpmInstall: `${Figures.cross} 依赖安装失败，请检查${Chalk.blueBright("package.json")}`,
+	errorNpmInstall: `${Figures.cross} 依赖安装失败，请检查package.json`,
 	errorPublish: `${Figures.cross} 模块已存在，请使用其他名称发布模块`,
-	errorRegistry: `${Figures.cross} 请执行${Chalk.blueBright("npm config set registry https://registry.npmjs.org/")}切换回源镜像`,
-	errorYarnInstall: `${Figures.cross} 请执行${Chalk.blueBright("npm i -g yarn")}安装${Chalk.blueBright("yarn")}`,
+	errorRegistry: `${Figures.cross} 请执行 npm config set registry https://registry.npmjs.org/ 切换回源镜像`,
+	errorYarnInstall: `${Figures.cross} 请执行 npm i -g yarn 安装yarn`,
 	publishFail: `${Figures.cross} 执行步骤出错，请根据提示修复再执行${Chalk.blueBright("pkg-master publish")}或${Chalk.blueBright("pkg-master p")}`,
 	publishSucceed: `${Figures.tick} 模块发布成功`,
 	publishWarning: `${Figures.warning} 请执行${Chalk.blueBright("npm config set registry https://registry.npm.taobao.org/")}切换回淘宝镜像`,

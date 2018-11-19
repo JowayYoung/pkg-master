@@ -32,13 +32,13 @@ const NEW_TEXT = {
 };
 
 const PUBLISH_TEXT = {
-	errorLogin: `${Figures.cross} Please login to your Npm account`,
+	errorLogin: `${Figures.cross} Please execute *npm login* to login to your Npm account, and no account, please execute *npm adduser* to create your Npm account`,
 	errorNode: `${Figures.cross} Node not installed`,
 	errorNpm: `${Figures.cross} Npm is not installed`,
-	errorNpmInstall: `${Figures.cross} Dependencies was installed failed, please check ${Chalk.blueBright("package.json")}`,
+	errorNpmInstall: `${Figures.cross} Dependencies was installed failed, please check package.json`,
 	errorPublish: `${Figures.cross} Module already exists, please use other name to publish module`,
-	errorRegistry: `${Figures.cross} Please execute ${Chalk.blueBright("npm config set registry https://registry.npmjs.org/")} to switch back to source registry`,
-	errorYarnInstall: `${Figures.cross} Please execute ${Chalk.blueBright("npm i -g yarn")} installed ${Chalk.blueBright("yarn")}`,
+	errorRegistry: `${Figures.cross} Please execute *npm config set registry https://registry.npmjs.org/* to switch back to source registry`,
+	errorYarnInstall: `${Figures.cross} Please execute *npm i -g yarn* installed yarn`,
 	publishFail: `${Figures.cross} Error in execution steps, please repair and execute ${Chalk.blueBright("pkg-master publish")} or ${Chalk.blueBright("pkg-master p")} according to the prompt`,
 	publishSucceed: `${Figures.tick} Module was published successfully`,
 	publishWarning: `${Figures.warning} Please execute ${Chalk.blueBright("npm config set registry https://registry.npm.taobao.org/")} to switch back to Taobao registry`,
