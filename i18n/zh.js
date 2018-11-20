@@ -39,7 +39,7 @@ const PUBLISH_TEXT = {
 	errorRegistry: `${Figures.cross} 请执行 npm config set registry https://registry.npmjs.org/ 切换回源镜像`,
 	errorYarnInstall: `${Figures.cross} 请执行 npm i -g yarn 安装yarn`,
 	publishFail: `${Figures.cross} 执行步骤出错，请根据提示修复再执行${Chalk.blueBright("pkg-master publish")}或${Chalk.blueBright("pkg-master p")}`,
-	publishSucceed: `${Figures.tick} 模块发布成功`,
+	publishSucceed: (name, version) => `${Figures.tick} ${Chalk.blueBright(`${name}:${version}`)}发布成功`,
 	publishWarning: `${Figures.warning} 请执行${Chalk.blueBright("npm config set registry https://registry.npm.taobao.org/")}切换回淘宝镜像`,
 	taskEnv: "检查Node运行环境",
 	taskLogin: "查看Npm账号登录状态",

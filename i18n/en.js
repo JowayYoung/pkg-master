@@ -39,7 +39,7 @@ const PUBLISH_TEXT = {
 	errorRegistry: `${Figures.cross} Please execute *npm config set registry https://registry.npmjs.org/* to switch back to source registry`,
 	errorYarnInstall: `${Figures.cross} Please execute *npm i -g yarn* installed yarn`,
 	publishFail: `${Figures.cross} Error in execution steps, please repair and execute ${Chalk.blueBright("pkg-master publish")} or ${Chalk.blueBright("pkg-master p")} according to the prompt`,
-	publishSucceed: `${Figures.tick} Module was published successfully`,
+	publishSucceed: (name, version) => `${Figures.tick} ${Chalk.blueBright(`${name}:${version}`)} was published successfully`,
 	publishWarning: `${Figures.warning} Please execute ${Chalk.blueBright("npm config set registry https://registry.npm.taobao.org/")} to switch back to Taobao registry`,
 	taskEnv: "Check Node running environment",
 	taskLogin: "View Npm account login status",
