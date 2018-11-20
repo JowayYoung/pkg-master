@@ -15,10 +15,12 @@ Command | Alias | Description
 `pkg-master publish` | `pkg-master p` | Publish Module
 
 - Create your module `pkg-master n`, provide some questions and answers to let you customize some basic files of your module
-- Enter the created module `cd yourModuleName`, and develop related functions
+- Enter the created module `cd yourModuleName`, and develop the function of the module
 - Publish the developed module `pkg-master p`, if error in execution steps, please repair and execute `pkg-master p` according to the prompt
 
 ### Language
+
+You can use `pkg-master l` to switch the international language, and now provide the following languages
 
 - [x] zh 中文
 - [x] en English
