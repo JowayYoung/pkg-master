@@ -3,6 +3,9 @@
 	"version": "1.0.1",
 	"description": "pkg-master",
 	"keywords": [
+		"pkg-master",
+		"pkg",
+		"master",
 		"project",
 		"module",
 		"package",
