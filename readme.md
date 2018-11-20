@@ -10,9 +10,9 @@
 
 Command | Alias | Description
 -- | -- | --
-`pkg-master lang` | `img-master l` | Switch Language
-`pkg-master new` | `img-master n` | Create Module
-`pkg-master publish` | `img-master p` | Publish Module
+`pkg-master lang` | `pkg-master l` | Switch Language
+`pkg-master new` | `pkg-master n` | Create Module
+`pkg-master publish` | `pkg-master p` | Publish Module
 
 ### Language
 
@@ -21,4 +21,4 @@ Command | Alias | Description
 
 ### License
 
-MIT
+MIT © [Joway Young](https://github.com/JowayYoung)
