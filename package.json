@@ -3,15 +3,16 @@
 	"version": "1.0.0",
 	"description": "pkg-master",
 	"keywords": [
-		"new",
-		"package"
+		"project",
+		"module",
+		"package",
+		"create",
+		"publish"
 	],
 	"homepage": "https://github.com/JowayYoung",
 	"license": "MIT",
-	"main": "index.js",
 	"author": {
 		"name": "Joway Young",
-		"phone": "18819249731",
 		"email": "young.joway@aliyun.com"
 	},
 	"repository": {
@@ -28,12 +29,6 @@
 	"dependencies": {
 		"chalk": "2.4.1",
 		"commander": "2.19.0",
-		"eslint": "5.9.0",
-		"eslint-config-standard": "12.0.0",
-		"eslint-plugin-import": "2.14.0",
-		"eslint-plugin-node": "8.0.0",
-		"eslint-plugin-promise": "4.0.1",
-		"eslint-plugin-standard": "4.0.0",
 		"execa": "1.0.0",
 		"figures": "2.0.0",
 		"inquirer": "6.2.0",
@@ -41,6 +36,14 @@
 		"listr": "0.14.3",
 		"ora": "^3.0.0",
 		"rimraf": "2.6.2"
+	},
+	"devDependencies": {
+		"eslint": "5.9.0",
+		"eslint-config-standard": "12.0.0",
+		"eslint-plugin-import": "2.14.0",
+		"eslint-plugin-node": "8.0.0",
+		"eslint-plugin-promise": "4.0.1",
+		"eslint-plugin-standard": "4.0.0"
 	},
 	"engines": {
 		"node": ">= 8.0.0",

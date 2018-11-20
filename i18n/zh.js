@@ -21,15 +21,13 @@ const NEW_TEXT = {
 	judgeKeyword: `${Figures.cross} 关键字只能由数字、字母和中文组成，并且使用空格隔开`,
 	judgeLink: `${Figures.cross} 请输入正确的链接`,
 	judgeName: `${Figures.cross} 名称只能由数字、小写字母、中划线、下划线组成`,
-	judgePhone: `${Figures.cross} 请输入正确的电话`,
 	newSucceed: `${Figures.tick} 模块创建成功`,
 	qaAuthor: "请输入作者",
 	qaDesc: "请输入描述",
 	qaEmail: "请输入邮箱",
 	qaKeyword: "请输入关键字",
 	qaLink: "请输入链接",
-	qaName: "请输入名称",
-	qaPhone: "请输入电话"
+	qaName: "请输入名称"
 };
 
 const PUBLISH_TEXT = {

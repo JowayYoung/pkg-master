@@ -21,15 +21,13 @@ const NEW_TEXT = {
 	judgeKeyword: `${Figures.cross} Keyword can only be composed of numbers, letters and Chinese, and use spaces to separate them`,
 	judgeLink: `${Figures.cross} Please input the correct link`,
 	judgeName: `${Figures.cross} Name can only be composed of numbers, lowercase letters, middle line, and underline`,
-	judgePhone: `${Figures.cross} Please input the correct phone`,
 	newSucceed: `${Figures.tick} Module was created successfully`,
 	qaAuthor: "Please input author",
 	qaDesc: "Please input description",
 	qaEmail: "Please input email",
 	qaKeyword: "Please input keyword",
 	qaLink: "Please input link",
-	qaName: "Please input name",
-	qaPhone: "Please input phone"
+	qaName: "Please input name"
 };
 
 const PUBLISH_TEXT = {

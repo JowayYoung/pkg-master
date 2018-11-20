@@ -8,7 +8,6 @@
 	"main": "index.js",
 	"author": {
 		"name": "#author#",
-		"phone": "#phone#",
 		"email": "#email#"
 	},
 	"scripts": {
@@ -16,7 +15,8 @@
 		"kill": "tskill node",
 		"remove": "rimraf node_modules && rimraf package-lock.json && rimraf yarn.lock"
 	},
-	"dependencies": #deps#,
+	"dependencies": {},
+	"devDependencies": #deps#,
 	"engines": {
 		"node": ">= 8.0.0",
 		"npm": ">= 5.0.0"
