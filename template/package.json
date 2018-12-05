@@ -3,13 +3,10 @@
 	"version": "1.0.0",
 	"description": "#desc#",
 	"keywords": #keyword#,
+	"author": "#author#",
 	"homepage": "#homepage#",
 	"license": "MIT",
 	"main": "index.js",
-	"author": {
-		"name": "#author#",
-		"email": "#email#"
-	},
 	"scripts": {
 		"start": "node index.js",
 		"kill": "tskill node",

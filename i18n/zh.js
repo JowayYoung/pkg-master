@@ -16,7 +16,6 @@ const NEW_TEXT = {
 	generating: `${Figures.hamburger} 文件正在生成中......`,
 	judgeAuthor: `${Figures.cross} 名称只能由数字、字母、中文、中划线、下划线组成`,
 	judgeAuthorEmpty: `${Figures.cross} 作者不能为空`,
-	judgeEmail: `${Figures.cross} 请输入正确的邮箱`,
 	judgeExist: `${Figures.cross} 模块已存在，请使用其他名称创建模块`,
 	judgeKeyword: `${Figures.cross} 关键字只能由数字、字母和中文组成，并且使用空格隔开`,
 	judgeLink: `${Figures.cross} 请输入正确的链接`,
@@ -24,7 +23,6 @@ const NEW_TEXT = {
 	newSucceed: `${Figures.tick} 模块创建成功`,
 	qaAuthor: "请输入作者",
 	qaDesc: "请输入描述",
-	qaEmail: "请输入邮箱",
 	qaKeyword: "请输入关键字",
 	qaLink: "请输入链接",
 	qaName: "请输入名称"

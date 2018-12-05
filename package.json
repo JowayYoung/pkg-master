@@ -12,12 +12,9 @@
 		"create",
 		"publish"
 	],
+	"author": "Joway Young",
 	"homepage": "https://github.com/JowayYoung",
 	"license": "MIT",
-	"author": {
-		"name": "Joway Young",
-		"email": "young.joway@aliyun.com"
-	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/JowayYoung/pkg-master"

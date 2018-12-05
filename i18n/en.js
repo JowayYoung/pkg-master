@@ -16,7 +16,6 @@ const NEW_TEXT = {
 	generating: `${Figures.hamburger} File is generating......`,
 	judgeAuthor: `${Figures.cross} Author can only be composed of numbers, letters, Chinese, middle line, and underline`,
 	judgeAuthorEmpty: `${Figures.cross} Author can't be empty`,
-	judgeEmail: `${Figures.cross} Please input the correct mailbox`,
 	judgeExist: `${Figures.cross} Module already exists, please use other name to create module`,
 	judgeKeyword: `${Figures.cross} Keyword can only be composed of numbers, letters and Chinese, and use spaces to separate them`,
 	judgeLink: `${Figures.cross} Please input the correct link`,
@@ -24,7 +23,6 @@ const NEW_TEXT = {
 	newSucceed: `${Figures.tick} Module was created successfully`,
 	qaAuthor: "Please input author",
 	qaDesc: "Please input description",
-	qaEmail: "Please input email",
 	qaKeyword: "Please input keyword",
 	qaLink: "Please input link",
 	qaName: "Please input name"
