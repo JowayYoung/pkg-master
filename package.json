@@ -38,7 +38,7 @@
 		"rimraf": "2.6.2"
 	},
 	"devDependencies": {
-		"eslint": "5.9.0",
+		"eslint": "5.11.1",
 		"eslint-config-standard": "12.0.0",
 		"eslint-plugin-import": "2.14.0",
 		"eslint-plugin-node": "8.0.0",
@@ -102,6 +102,13 @@
 			"semi": [
 				"error",
 				"always"
+			],
+			"sort-keys": [
+				"error",
+				"asc",
+				{
+					"caseSensitive": false
+				}
 			],
 			"space-before-function-paren": [
 				"error",
