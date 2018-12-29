@@ -24,7 +24,7 @@
 	},
 	"scripts": {
 		"kill": "tskill node",
-		"remove": "rimraf node_modules && rimraf package-lock.json && rimraf yarn.lock"
+		"remove": "rimraf package-lock.json && rimraf yarn.lock && rimraf node_modules"
 	},
 	"dependencies": {
 		"chalk": "2.4.1",

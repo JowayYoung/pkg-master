@@ -10,7 +10,7 @@
 	"scripts": {
 		"start": "node index.js",
 		"kill": "tskill node",
-		"remove": "rimraf node_modules && rimraf package-lock.json && rimraf yarn.lock"
+		"remove": "rimraf package-lock.json && rimraf yarn.lock && rimraf node_modules"
 	},
 	"dependencies": {},
 	"devDependencies": #deps#,
@@ -71,6 +71,13 @@
 			"semi": [
 				"error",
 				"always"
+			],
+			"sort-keys": [
+				"error",
+				"asc",
+				{
+					"caseSensitive": false
+				}
 			],
 			"space-before-function-paren": [
 				"error",
