@@ -4,7 +4,7 @@
 
 ### Installation
 
-	`npm i -g pkg-master`
+> `npm i -g pkg-master`
 
 ### Usage
 
