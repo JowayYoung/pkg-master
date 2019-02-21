@@ -76,7 +76,8 @@
 				"error",
 				"asc",
 				{
-					"caseSensitive": false
+					"caseSensitive": false,
+					"natural": true
 				}
 			],
 			"space-before-function-paren": [
