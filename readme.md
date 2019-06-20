@@ -1,29 +1,22 @@
 # Pkg Master
 
-> `pkg-master` is a command line tool for creating module base files and publishing module one key to Npm
+**`pkg-master`是一个用于创建`npm`模块基础文件且可将模块发布到`npm`的命令行工具**
 
-### Installation
+### 安装
 
 > `npm i -g pkg-master`
+> `yarn add global pkg-master`
 
-### Usage
+### 使用
 
-Command | Alias | Description
+命令 | 缩写 | 描述
 -- | -- | --
-`pkg-master lang` | `pkg-master l` | Switch Language
-`pkg-master new` | `pkg-master n` | Create Module
-`pkg-master publish` | `pkg-master p` | Publish Module
+`pkg-master new` | `pkg-master n` | 创建模块
+`pkg-master publish` | `pkg-master p` | 发布模块
 
-- Create your module `pkg-master n`, provide some questions and answers to let you customize some basic files of your module
-- Enter the created module `cd yourModuleName`, and develop the function of the module
-- Publish the developed module `pkg-master p`, if error in execution steps, please repair and execute `pkg-master p` according to the prompt
-
-### Language
-
-You can use `pkg-master l` to switch the international language, and now provide the following languages
-
-- [x] zh 中文
-- [x] en English
+- `pkg-master n`创建模块，提供一系列问题让你自定义模块的基本文件
+- `cd yourModuleName`进入创建完成的模块，开发你的模块功能
+- `pkg-master p`发布模块，如果执行步骤出错，请根据提示修复并执行`pkg master p`
 
 ### License
 

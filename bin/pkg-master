@@ -4,29 +4,22 @@ const Chalk = require("chalk");
 const Commander = require("commander");
 
 const Package = require("../package");
-const Lang = require("../lib/lang");
-const New = require("../lib/new");
-const Publish = require("../lib/publish");
 const { ACTION_TEXT } = require("../i18n");
+const { AutoBin } = require("../util/setting");
 
 Commander
 	.usage(Chalk.yellowBright("<command> [option]"))
 	.version(Package.version, "-v, --version");
 Commander
-	.command("lang")
-	.alias("l")
-	.description(Chalk.blueBright(ACTION_TEXT.lang))
-	.action(Lang);
-Commander
 	.command("new")
 	.alias("n")
 	.description(Chalk.blueBright(ACTION_TEXT.new))
-	.action(New);
+	.action(() => AutoBin("new"));
 Commander
 	.command("publish")
 	.alias("p")
 	.description(Chalk.blueBright(ACTION_TEXT.publish))
-	.action(Publish);
+	.action(() => AutoBin("publish"));
 
 Commander.parse(process.argv);
 !Commander.args.length && Commander.help();

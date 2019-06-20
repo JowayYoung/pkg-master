@@ -2,25 +2,19 @@ const Chalk = require("chalk");
 const Figures = require("figures");
 
 const ACTION_TEXT = {
-	lang: "切换语言",
 	new: "创建模块",
 	publish: "发布模块"
 };
 
-const LANG_TEXT = {
-	langSucceed: `${Figures.tick} 语言切换成功`,
-	qaLanguage: "请选择国际语言"
-};
-
 const NEW_TEXT = {
 	generating: `${Figures.hamburger} 文件正在生成中......`,
-	judgeAuthor: `${Figures.cross} 名称只能由数字、字母、中文、中划线、下划线组成`,
+	judgeAuthor: `${Figures.cross} 名称只能由数字、字母、中文、中划线、下划线、空格组成`,
 	judgeAuthorEmpty: `${Figures.cross} 作者不能为空`,
 	judgeExist: `${Figures.cross} 模块已存在，请使用其他名称创建模块`,
 	judgeKeyword: `${Figures.cross} 关键字只能由数字、字母和中文组成，并且使用空格隔开`,
 	judgeLink: `${Figures.cross} 请输入正确的链接`,
-	judgeName: `${Figures.cross} 名称只能由数字、小写字母、中划线、下划线组成`,
-	newSucceed: `${Figures.tick} 模块创建成功`,
+	judgeName: `${Figures.cross} 名称只能由数字、字母、中划线、下划线组成，且首位字符只能为数字或字母`,
+	newed: `${Figures.tick} 模块创建成功`,
 	qaAuthor: "请输入作者",
 	qaDesc: "请输入描述",
 	qaKeyword: "请输入关键字",
@@ -29,7 +23,7 @@ const NEW_TEXT = {
 };
 
 const PUBLISH_TEXT = {
-	errorLogin: `${Figures.cross} 请执行 npm login 登录您的Npm账号，无账号请执行 npm adduser 创建您的Npm账号`,
+	errorLogin: `${Figures.cross} 请执行 npm login 登录Npm账号，无账号请执行 npm adduser 创建Npm账号`,
 	errorNode: `${Figures.cross} Node未安装`,
 	errorNpm: `${Figures.cross} Npm未安装`,
 	errorNpmInstall: `${Figures.cross} 依赖安装失败，请检查package.json`,
@@ -51,7 +45,6 @@ const PUBLISH_TEXT = {
 
 module.exports = {
 	ACTION_TEXT,
-	LANG_TEXT,
 	NEW_TEXT,
 	PUBLISH_TEXT
 };
