@@ -1,15 +1,15 @@
 {
 	"name": "pkg-master",
 	"version": "1.0.4",
-	"description": "pkg-master",
+	"description": "A management tool for creating and publishing projects",
 	"keywords": [
 		"pkg-master",
 		"pkg",
 		"master",
 		"project",
-		"module",
 		"package",
-		"new",
+		"module",
+		"create",
 		"publish"
 	],
 	"author": {
@@ -24,20 +24,20 @@
 	},
 	"license": "MIT",
 	"bin": {
-		"pkg-master": "bin/pkg-master"
+		"pkg-master": "bin/pkg-master.js"
 	},
 	"scripts": {
-		"remove": "rimraf package-lock.json && rimraf yarn.lock && rimraf node_modules"
+		"remove": "rimraf package-lock.json yarn.lock node_modules"
 	},
 	"dependencies": {
-		"chalk": "2.4.2",
-		"commander": "2.20.0",
-		"execa": "1.0.0",
-		"figures": "3.0.0",
-		"inquirer": "6.3.1",
+		"chalk": "3.0.0",
+		"commander": "4.1.1",
+		"execa": "4.0.0",
+		"figures": "3.1.0",
+		"inquirer": "7.0.4",
 		"listr": "0.14.3",
-		"ora": "^3.4.0",
-		"rimraf": "2.6.3"
+		"ora": "4.0.3",
+		"trample": "0.0.4"
 	},
 	"devDependencies": {},
 	"engines": {
