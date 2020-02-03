@@ -6,10 +6,6 @@ function AbsPath(path, mode) {
 	return Path.join(dir, path);
 }
 
-function AsyncTo(promise) {
-	return promise.then(data => [null, data]).catch(err => [err]);
-}
-
 function AutoBin(fn, ...rest) {
 	const lib = require(`../lib/${fn}`);
 	lib(...rest);
@@ -26,15 +22,9 @@ function ReadFile(path, mode) {
 		: [];
 }
 
-function TrimSpace(str) {
-	return str.replace(/(^\s*)|(\s*$)/g, "");
-}
-
 module.exports = {
 	AbsPath,
-	AsyncTo,
 	AutoBin,
 	IsExist,
-	ReadFile,
-	TrimSpace
+	ReadFile
 };

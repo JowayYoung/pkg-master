@@ -11,7 +11,7 @@ const ACTION_TEXT = {
 	publish: "发布模块"
 };
 
-const NEW_TEXT = {
+const CREATE_TEXT = {
 	generating: `${Figures.hamburger} 文件正在生成中......`,
 	judgeAuthor: `${Figures.cross} 名称只能由数字、字母、中文、中划线、下划线、空格组成`,
 	judgeAuthorEmpty: `${Figures.cross} 作者不能为空`,
@@ -50,7 +50,7 @@ const PUBLISH_TEXT = {
 
 module.exports = {
 	ACTION_TEXT,
+	CREATE_TEXT,
 	GLOB_TEXT,
-	NEW_TEXT,
 	PUBLISH_TEXT
 };

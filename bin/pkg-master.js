@@ -14,11 +14,11 @@ Commander
 	.helpOption("-h, --help", Chalk.greenBright(GLOB_TEXT.help))
 	.description(GLOB_TEXT.desc);
 // 创建项目
-// Commander
-// 	.command("create")
-// 	.alias("c")
-// 	.description(Chalk.blueBright(ACTION_TEXT.create))
-// 	.action(() => AutoBin("create"));
+Commander
+	.command("create")
+	.alias("c")
+	.description(Chalk.blueBright(ACTION_TEXT.create))
+	.action(() => AutoBin("create"));
 // 发布项目
 Commander
 	.command("publish")
