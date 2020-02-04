@@ -1,7 +1,7 @@
 # Pkg Master <img src="https://img.shields.io/badge/pkg--master-创建和发布项目的管理工具-66f.svg">
 
 <img src="https://img.shields.io/badge/author-JowayYoung-f66.svg">
-<img src="https://img.shields.io/badge/version-0.0.1-f66.svg">
+<img src="https://img.shields.io/badge/version-0.0.2-f66.svg">
 <img src="https://img.shields.io/badge/node-%3E%3D%208.0.0-3c9.svg">
 <img src="https://img.shields.io/badge/npm-%3E%3D%205.0.0-3c9.svg">
 <img src="https://img.shields.io/badge/test-passing-f90.svg">

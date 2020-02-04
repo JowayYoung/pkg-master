@@ -2,7 +2,7 @@ const Chalk = require("chalk");
 const Figures = require("figures");
 
 const GLOB_TEXT = {
-	desc: `Description:\n${Chalk.blueBright("pkg-master")} 一个创建和发布项目的管理工具\n文档详情请查看 ${Chalk.yellowBright("https://github.com/JowayYoung/pkg-master")}`,
+	desc: `Description:\n${Chalk.blueBright("pkg-master")} 一个创建和发布模块的管理工具\n文档详情请查看 ${Chalk.yellowBright("https://github.com/JowayYoung/pkg-master")}`,
 	help: "使用信息"
 };
 
@@ -18,7 +18,7 @@ const CREATE_TEXT = {
 	judgeExist: `${Figures.cross} 模块已存在，请使用其他名称创建模块`,
 	judgeKeyword: `${Figures.cross} 关键字只能由数字、字母或中文组成，且使用空格隔开`,
 	judgeLink: `${Figures.cross} 请输入正确的首页链接`,
-	judgeName: `${Figures.cross} 名称只能由数字、字母、中划线或下划线组成，且首位字符只能为数字或字母`,
+	judgeName: `${Figures.cross} 名称只能由数字、小写字母、中划线、下划线或点组成，且首位字符只能为数字或小写字母`,
 	qaAuthor: "请输入作者",
 	qaDesc: "请输入描述",
 	qaKeyword: "请输入关键字",

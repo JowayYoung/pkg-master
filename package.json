@@ -1,7 +1,7 @@
 {
 	"name": "pkg-master",
-	"version": "0.0.1",
-	"description": "A management tool for creating and publishing projects",
+	"version": "0.0.2",
+	"description": "A management tool for creating and publishing package",
 	"keywords": [
 		"pkg-master",
 		"pkg",
