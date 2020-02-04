@@ -1,7 +1,7 @@
 # Pkg Master <img src="https://img.shields.io/badge/pkg--master-创建和发布模块的管理工具-66f.svg">
 
 <img src="https://img.shields.io/badge/author-JowayYoung-f66.svg">
-<img src="https://img.shields.io/badge/version-0.0.2-f66.svg">
+<img src="https://img.shields.io/badge/version-0.0.3-f66.svg">
 <img src="https://img.shields.io/badge/node-%3E%3D%208.0.0-3c9.svg">
 <img src="https://img.shields.io/badge/npm-%3E%3D%205.0.0-3c9.svg">
 <img src="https://img.shields.io/badge/test-passing-f90.svg">
@@ -35,6 +35,8 @@
 - `pkg-master c`创建模块，提供一系列问题让你自定义模块的基本文件
 - `cd yourModuleName`进入创建完成的模块，开发你的模块功能
 - `pkg-master p`发布模块，如果执行步骤出错，请根据提示修复并重新执行`pkg master p`
+
+![发布模块](https://yangzw.vip/static/article/pkg-master/pkg-master.gif)
 
 ### 版权
 
