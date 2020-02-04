@@ -12,14 +12,13 @@ const ACTION_TEXT = {
 };
 
 const CREATE_TEXT = {
+	created: `${Figures.tick} 模块创建成功`,
 	generating: `${Figures.hamburger} 文件正在生成中......`,
-	judgeAuthor: `${Figures.cross} 名称只能由数字、字母、中文、中划线、下划线、空格组成`,
-	judgeAuthorEmpty: `${Figures.cross} 作者不能为空`,
+	judgeAuthor: `${Figures.cross} 作者只能由数字、字母、中文、中划线、下划线或空格组成`,
 	judgeExist: `${Figures.cross} 模块已存在，请使用其他名称创建模块`,
-	judgeKeyword: `${Figures.cross} 关键字只能由数字、字母和中文组成，并且使用空格隔开`,
-	judgeLink: `${Figures.cross} 请输入正确的链接`,
-	judgeName: `${Figures.cross} 名称只能由数字、字母、中划线、下划线组成，且首位字符只能为数字或字母`,
-	newed: `${Figures.tick} 模块创建成功`,
+	judgeKeyword: `${Figures.cross} 关键字只能由数字、字母或中文组成，且使用空格隔开`,
+	judgeLink: `${Figures.cross} 请输入正确的首页链接`,
+	judgeName: `${Figures.cross} 名称只能由数字、字母、中划线或下划线组成，且首位字符只能为数字或字母`,
 	qaAuthor: "请输入作者",
 	qaDesc: "请输入描述",
 	qaKeyword: "请输入关键字",

@@ -1,6 +1,6 @@
 {
 	"name": "pkg-master",
-	"version": "1.0.4",
+	"version": "0.0.1",
 	"description": "A management tool for creating and publishing projects",
 	"keywords": [
 		"pkg-master",
