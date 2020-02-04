@@ -2,7 +2,7 @@ const Chalk = require("chalk");
 const Figures = require("figures");
 
 const GLOB_TEXT = {
-	desc: `Description:\n${Chalk.blueBright("pkg-master")} 一个创建和发布模块的管理工具\n文档详情请查看 ${Chalk.yellowBright("https://github.com/JowayYoung/pkg-master")}`,
+	desc: `Description:\n${Chalk.blueBright("pkg-master")} 一个创建和发布NPM模块的管理工具\n文档详情请查看 ${Chalk.yellowBright("https://github.com/JowayYoung/pkg-master")}`,
 	help: "使用信息"
 };
 

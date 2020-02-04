@@ -1,7 +1,7 @@
 {
 	"name": "pkg-master",
 	"version": "0.0.2",
-	"description": "A management tool for creating and publishing package",
+	"description": "A management tool for creating and publishing NPM package",
 	"keywords": [
 		"pkg-master",
 		"pkg",
