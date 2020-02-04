@@ -1,4 +1,4 @@
-# Pkg Master <img src="https://img.shields.io/badge/pkg--master-创建和发布项目的管理工具-66f.svg">
+# Pkg Master <img src="https://img.shields.io/badge/pkg--master-创建和发布模块的管理工具-66f.svg">
 
 <img src="https://img.shields.io/badge/author-JowayYoung-f66.svg">
 <img src="https://img.shields.io/badge/version-0.0.2-f66.svg">

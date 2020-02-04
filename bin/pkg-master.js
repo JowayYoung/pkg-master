@@ -13,13 +13,13 @@ Commander
 	.version(version, "-v, --version", Chalk.greenBright(version))
 	.helpOption("-h, --help", Chalk.greenBright(GLOB_TEXT.help))
 	.description(GLOB_TEXT.desc);
-// 创建项目
+// 创建模块
 Commander
 	.command("create")
 	.alias("c")
 	.description(Chalk.blueBright(ACTION_TEXT.create))
 	.action(() => AutoBin("create"));
-// 发布项目
+// 发布模块
 Commander
 	.command("publish")
 	.alias("p")
