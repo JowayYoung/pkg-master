@@ -1,6 +1,6 @@
 {
 	"name": "pkg-master",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "A management tool for creating and publishing NPM package",
 	"keywords": [
 		"pkg-master",
@@ -31,13 +31,13 @@
 	},
 	"dependencies": {
 		"chalk": "3.0.0",
-		"commander": "4.1.1",
+		"commander": "5.0.0",
 		"execa": "4.0.0",
-		"figures": "3.1.0",
-		"inquirer": "7.0.4",
+		"figures": "3.2.0",
+		"inquirer": "7.1.0",
 		"listr": "0.14.3",
 		"ora": "4.0.3",
-		"trample": "0.0.4"
+		"trample": "0.0.9"
 	},
 	"devDependencies": {},
 	"engines": {
