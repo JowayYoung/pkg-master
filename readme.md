@@ -4,10 +4,10 @@
 [![version](https://img.shields.io/badge/version-0.0.4-f66.svg)](https://github.com/JowayYoung/pkg-master)
 [![node](https://img.shields.io/badge/node-%3E%3D%208.0.0-3c9.svg)](https://github.com/JowayYoung/pkg-master)
 [![npm](https://img.shields.io/badge/npm-%3E%3D%205.0.0-3c9.svg)](https://github.com/JowayYoung/pkg-master)
-[![test](https://img.shields.io/badge/test-passing-f90.svg)](https://github.com/JowayYoung/bruce-cli)
-[![build](https://img.shields.io/badge/build-passing-f90.svg)](https://github.com/JowayYoung/bruce-cli)
-[![coverage](https://img.shields.io/badge/coverage-100%25-09f.svg)](https://github.com/JowayYoung/bruce-cli)
-[![license](https://img.shields.io/badge/license-MIT-09f.svg)](https://github.com/JowayYoung/bruce-cli)
+[![test](https://img.shields.io/badge/test-passing-f90.svg)](https://github.com/JowayYoung/pkg-master)
+[![build](https://img.shields.io/badge/build-passing-f90.svg)](https://github.com/JowayYoung/pkg-master)
+[![coverage](https://img.shields.io/badge/coverage-100%25-09f.svg)](https://github.com/JowayYoung/pkg-master)
+[![license](https://img.shields.io/badge/license-MIT-09f.svg)](https://github.com/JowayYoung/pkg-master)
 
 > `pkg-master`是一个用于创建`npm`模块基础文件且可将模块发布到`npm`的命令行工具
 
