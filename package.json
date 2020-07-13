@@ -30,18 +30,18 @@
 		"remove": "rimraf package-lock.json yarn.lock node_modules"
 	},
 	"dependencies": {
-		"chalk": "3.0.0",
-		"commander": "5.0.0",
-		"execa": "4.0.0",
+		"chalk": "4.1.0",
+		"commander": "5.1.0",
+		"execa": "4.0.3",
 		"figures": "3.2.0",
-		"inquirer": "7.1.0",
+		"inquirer": "7.3.1",
 		"listr": "0.14.3",
-		"ora": "4.0.3",
-		"trample": "0.0.9"
+		"ora": "4.0.4",
+		"trample": "0.2.2"
 	},
 	"devDependencies": {},
 	"engines": {
-		"node": ">= 8.0.0",
-		"npm": ">= 5.0.0"
+		"node": ">= 10.0.0",
+		"npm": ">= 5.6.0"
 	}
 }

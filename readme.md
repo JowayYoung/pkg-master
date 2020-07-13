@@ -1,15 +1,15 @@
-# Pkg Master <img src="https://img.shields.io/badge/pkg--master-创建和发布模块的管理工具-66f.svg">
+# Pkg Master <img src="https://img.shields.io/badge/pkg--master-创建和发布NPM模块的管理工具-66f.svg">
 
 [![author](https://img.shields.io/badge/author-JowayYoung-f66.svg)](https://github.com/JowayYoung/pkg-master)
 [![version](https://img.shields.io/badge/version-0.0.4-f66.svg)](https://github.com/JowayYoung/pkg-master)
-[![node](https://img.shields.io/badge/node-%3E%3D%208.0.0-3c9.svg)](https://github.com/JowayYoung/pkg-master)
-[![npm](https://img.shields.io/badge/npm-%3E%3D%205.0.0-3c9.svg)](https://github.com/JowayYoung/pkg-master)
+[![node](https://img.shields.io/badge/node-%3E%3D%2010.0.0-3c9.svg)](https://github.com/JowayYoung/pkg-master)
+[![npm](https://img.shields.io/badge/npm-%3E%3D%205.6.0-3c9.svg)](https://github.com/JowayYoung/pkg-master)
 [![test](https://img.shields.io/badge/test-passing-f90.svg)](https://github.com/JowayYoung/pkg-master)
 [![build](https://img.shields.io/badge/build-passing-f90.svg)](https://github.com/JowayYoung/pkg-master)
 [![coverage](https://img.shields.io/badge/coverage-100%25-09f.svg)](https://github.com/JowayYoung/pkg-master)
 [![license](https://img.shields.io/badge/license-MIT-09f.svg)](https://github.com/JowayYoung/pkg-master)
 
-> `pkg-master`是一个用于创建`npm`模块基础文件且可将模块发布到`npm`的命令行工具
+> `pkg-master`是一个创建和发布NPM模块的管理工具
 
 ### 安装
 
@@ -17,8 +17,8 @@
 
 > 安装失败
 
-- 将npm源镜像设置为淘宝镜像：`npm config set registry https://registry.npm.taobao.org`
-- 重新执行命令安装：`npm i -g pkg-master`
+- 切换**NPM镜像**为淘宝镜像：`npm config set registry https://registry.npm.taobao.org/`
+- 重新执行安装命令：`npm i -g pkg-master`
 
 ### 使用
 
