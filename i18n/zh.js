@@ -2,7 +2,7 @@ const Chalk = require("chalk");
 const Figures = require("figures");
 
 const GLOB_TEXT = {
-	desc: `Description:\n${Chalk.blueBright("pkg-master")} 一个创建和发布NPM模块的管理工具\n文档详情请查看 ${Chalk.yellowBright("https://github.com/JowayYoung/pkg-master")}`,
+	desc: `Description:\n${Chalk.blueBright("pkg-master")} 一个集成创建和发布的NPM模块管理工具\n文档详情请查看 ${Chalk.yellowBright("https://github.com/JowayYoung/pkg-master")}`,
 	help: "使用信息"
 };
 
@@ -28,23 +28,23 @@ const CREATE_TEXT = {
 
 const PUBLISH_TEXT = {
 	errorAuth: `${Figures.cross} 请执行 npm login 登录NPM账号，无账号请执行 npm adduser 创建NPM账号`,
-	errorNode: `${Figures.cross} Node未安装`,
-	errorNpm: `${Figures.cross} NPM未安装`,
-	errorNpmInstall: `${Figures.cross} 依赖安装失败，请检查package.json`,
+	errorEnvNode: `${Figures.cross} Node未安装`,
+	errorEnvNpm: `${Figures.cross} NPM未安装`,
+	errorEnvRegistry: `${Figures.cross} 请执行 npm config set registry https://registry.npmjs.org/ 切换到源镜像`,
+	errorNpm: `${Figures.cross} 依赖安装失败，请检查package.json`,
 	errorPublish: `${Figures.cross} 模块已存在，请使用其他名称发布模块`,
-	errorRegistry: `${Figures.cross} 请执行 npm config set registry https://registry.npmjs.org 切换回源镜像`,
-	errorYarnInstall: `${Figures.cross} 请执行 npm i -g yarn 安装yarn`,
-	publishFail: `${Figures.cross} 执行步骤出错，请根据提示修复再执行${Chalk.blueBright("pkg-master p")}`,
-	publishSucceed: (name, version) => `${Figures.tick} ${Chalk.redBright(`${name} ${version}`)}发布成功`,
-	publishWarning: `${Figures.warning} 请执行${Chalk.blueBright("npm config set registry https://registry.npm.taobao.org")}切换回淘宝镜像`,
-	taskAuth: "查看NPM账号登录状态",
-	taskEnv: "检查Node运行环境",
-	taskNode: "检查Node是否安装",
-	taskNpm: "检查NPM是否安装",
-	taskNpmInstall: "使用NPM安装依赖",
+	errorYarn: `${Figures.cross} 请执行 npm i -g yarn 安装yarn`,
+	publishFailed: `${Figures.cross} 执行步骤出错，请根据提示修复再执行${Chalk.blueBright("pkg-master p")}`,
+	publishSuccessed: (name, version) => `${Figures.tick} ${Chalk.blueBright(name)}@${Chalk.yellowBright(version)}发布成功`,
+	publishWarning: `${Figures.warning} 请执行${Chalk.blueBright("npm config set registry https://registry.npm.taobao.org/")}切换到淘宝镜像`,
+	taskAuth: "检测NPM账号状态",
+	taskEnv: "检测NPM运行环境",
+	taskEnvNode: "检查Node是否安装",
+	taskEnvNpm: "检查NPM是否安装",
+	taskEnvRegistry: "检查NPM镜像是否正确",
+	taskNpm: "使用NPM安装依赖",
 	taskPublish: "发布NPM模块",
-	taskRegistry: "检查NPM镜像",
-	taskYarnInstall: "使用Yarn安装依赖"
+	taskYarn: "使用Yarn安装依赖"
 };
 
 module.exports = {

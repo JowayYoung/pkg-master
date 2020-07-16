@@ -5,6 +5,13 @@ const CREATE_REGEXP = {
 	name: /^[0-9a-z][0-9a-z_-]*$/
 };
 
+const PUBLISH_REGEXP = {
+	node: /^v[\d]{1,}\.[\d]{1,}\.[\d]{1,}$/,
+	npm: /^[\d]{1,}\.[\d]{1,}\.[\d]{1,}$/,
+	registry: /^https:\/\/registry\.npmjs\.org\/$/
+};
+
 module.exports = {
-	CREATE_REGEXP
+	CREATE_REGEXP,
+	PUBLISH_REGEXP
 };
