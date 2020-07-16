@@ -13,16 +13,16 @@ const ACTION_TEXT = {
 
 const CREATE_TEXT = {
 	created: `${Figures.tick} 模块创建成功`,
-	generating: `${Figures.hamburger} 文件正在生成中......`,
+	generating: `${Figures.hamburger} 文件正在生成......`,
 	judgeAuthor: `${Figures.cross} 作者只能由数字、字母、中文、下划线、中划线或空格组成`,
 	judgeExist: `${Figures.cross} 模块已存在，请使用其他名称创建模块`,
+	judgeHome: `${Figures.cross} 请输入正确的首页`,
 	judgeKeyword: `${Figures.cross} 关键字只能由数字、字母或中文组成，且使用空格隔开`,
-	judgeLink: `${Figures.cross} 请输入正确的首页链接`,
 	judgeName: `${Figures.cross} 名称只能由数字、小写字母、下划线或中划线组成，且首位字符只能为数字或小写字母`,
 	qaAuthor: "请输入作者",
 	qaDesc: "请输入描述",
-	qaKeyword: "请输入关键字，多个关键字可用空格隔开",
-	qaLink: "请输入链接",
+	qaHome: "请输入首页",
+	qaKeyword: `请输入关键字：${Chalk.blueBright("多个关键字可用空格隔开")}`,
 	qaName: "请输入名称"
 };
 

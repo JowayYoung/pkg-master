@@ -24,7 +24,7 @@
 	},
 	"license": "MIT",
 	"bin": {
-		"pkg-master": "bin/pkg-master.js"
+		"pkg-master": "bin/index.js"
 	},
 	"scripts": {
 		"remove": "rimraf package-lock.json yarn.lock node_modules"
@@ -34,10 +34,10 @@
 		"commander": "5.1.0",
 		"execa": "4.0.3",
 		"figures": "3.2.0",
-		"inquirer": "7.3.1",
+		"inquirer": "7.3.2",
 		"listr": "0.14.3",
 		"ora": "4.0.4",
-		"trample": "0.2.2"
+		"trample": "0.2.3"
 	},
 	"devDependencies": {},
 	"engines": {
